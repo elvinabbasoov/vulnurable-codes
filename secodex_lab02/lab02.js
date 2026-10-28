@@ -31,6 +31,7 @@ app.get('/', (req, res) => {
         <!DOCTYPE html>
         <html>
         <head>
+            <meta charset="UTF-8">
             <title>Comment Board</title>
         </head>
         <body>
@@ -56,11 +57,7 @@ app.post('/comment', (req, res) => {
     const session = getSession(req);
     session.comments.push(renderedContent);
 
-    res.redirect('/?sid=' + (req.query.sid || ''));
+    res.redirect('/?sid=' + encodeURIComponent(req.query.sid || ''));
 });
 
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+export default app;
