@@ -1,0 +1,12 @@
+{
+  "name": "record-filter-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node lab04.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

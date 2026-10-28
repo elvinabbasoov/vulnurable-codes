@@ -1,0 +1,12 @@
+{
+  "name": "authentication-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node lab03.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

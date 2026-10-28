@@ -1,0 +1,14 @@
+{
+  "name": "comment-board-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node lab02.js",
+    "dev": "node lab02.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "marked": "^15.0.7"
+  }
+}

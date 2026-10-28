@@ -1,0 +1,13 @@
+{
+  "name": "information-page-lab",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node lab05.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0"
+  }
+}
